@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Boyfriend Day, Ael 🤍</title>
+
+<!-- =========================
+     GOOGLE FONTS
+========================= -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap"
+rel="stylesheet">
+
+
+<style>
+
+/* =========================
+   RESET
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#080808;
+    color:white;
+
+    font-family:'Inter', sans-serif;
+
+    overflow-x:hidden;
+}
+
+
+/* =========================
+   BACKGROUND
+========================= */
+
+body::before{
+    content:"";
+
+    position:fixed;
+    inset:0;
+
+    background:
+        radial-gradient(
+            circle at 20% 20%,
+            rgba(255,255,255,.07),
+            transparent 25%
+        ),
+
+        radial-gradient(
+            circle at 80% 70%,
+            rgba(255,255,255,.05),
+            transparent 25%
+        );
+
+    pointer-events:none;
+
+    z-index:-2;
+}
+
+
+body::after{
+    content:"";
+
+    position:fixed;
+    inset:0;
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,.25),
+            rgba(0,0,0,.7)
+        );
+
+    pointer-events:none;
+
+    z-index:-1;
+}
+
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+#websiteContent{
+    display:block;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero{
+    min-height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:50px 25px;
+
+    position:relative;
+}
+
+
+.hero-label{
+    font-size:10px;
+
+    letter-spacing:5px;
+
+    text-transform:uppercase;
+
+    color:#888;
+
+    margin-bottom:25px;
+
+    animation:fadeUp 1s ease both;
+}
+
+
+.hero h1{
+    font-family:'DM Serif Display', serif;
+
+    font-size:clamp(
+        50px,
+        13vw,
+        100px
+    );
+
+    font-weight:400;
+
+    line-height:.95;
+
+    animation:fadeUp 1s ease .1s both;
+}
+
+
+.hero h1 span{
+    color:#aaa;
+}
+
+
+.hero-sub{
+    max-width:500px;
+
+    color:#999;
+
+    margin-top:25px;
+
+    font-size:14px;
+
+    line-height:1.8;
+
+    animation:fadeUp 1s ease .2s both;
+}
+
+
+.hero-from{
+    margin-top:30px;
+
+    font-size:12px;
+
+    letter-spacing:3px;
+
+    color:#777;
+
+    text-transform:uppercase;
+
+    animation:fadeUp 1s ease .3s both;
+}
+
+
+.hero-from strong{
+    color:white;
+}
+
+
+/* =========================
+   HERO MUSIC
+========================= */
+
+.hero-music{
+    width:100%;
+
+    max-width:430px;
+
+    margin-top:40px;
+
+    padding:22px 22px 20px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255,255,255,.09),
+            rgba(255,255,255,.025)
+        );
+
+    border:1px solid rgba(255,255,255,.11);
+
+    border-radius:22px;
+
+    backdrop-filter:blur(18px);
+
+    box-shadow:
+        0 20px 60px rgba(0,0,0,.35);
+
+    text-align:left;
+
+    animation:
+        fadeUp 1s ease .4s both;
+}
+
+
+.music-label{
+    font-size:9px;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    color:#777;
+
+    margin-bottom:9px;
+}
+
+
+.music-title{
+    font-family:'DM Serif Display',serif;
+
+    font-size:26px;
+
+    color:#eee;
+}
+
+
+.music-subtitle{
+    font-size:11px;
+
+    color:#777;
+
+    margin-top:5px;
+
+    margin-bottom:17px;
+}
+
+
+.hero-music audio{
+    width:100%;
+
+    height:38px;
+
+    opacity:.85;
+}
+
+
+/* =========================
+   SCROLL
+========================= */
+
+.scroll{
+    position:absolute;
+
+    bottom:28px;
+
+    font-size:10px;
+
+    letter-spacing:3px;
+
+    color:#666;
+
+    animation:
+        scrollPulse 2s infinite;
+}
+
+
+@keyframes scrollPulse{
+
+    0%,100%{
+        opacity:.4;
+        transform:translateY(0);
+    }
+
+    50%{
+        opacity:1;
+        transform:translateY(5px);
+    }
+
+}
+
+
+/* =========================
+   SECTIONS
+========================= */
+
+section{
+    padding:100px 20px;
+
+    max-width:900px;
+
+    margin:auto;
+}
+
+
+.section-label{
+    font-size:10px;
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    color:#666;
+
+    margin-bottom:20px;
+}
+
+
+.section-title{
+    font-family:'DM Serif Display', serif;
+
+    font-size:45px;
+
+    font-weight:400;
+
+    margin-bottom:30px;
+
+    line-height:1.05;
+}
+
+
+/* =========================
+   LETTER
+========================= */
+
+.letter{
+    background:
+        rgba(255,255,255,.035);
+
+    border:
+        1px solid rgba(255,255,255,.09);
+
+    padding:35px 28px;
+
+    border-radius:25px;
+
+    line-height:2;
+
+    color:#c9c9c9;
+
+    font-size:14px;
+
+    box-shadow:
+        0 25px 70px rgba(0,0,0,.2);
+}
+
+
+.letter p{
+    margin-bottom:20px;
+}
+
+
+.signature{
+    margin-top:30px;
+
+    font-family:'DM Serif Display', serif;
+
+    font-size:27px;
+
+    color:white;
+}
+
+
+/* =========================
+   FINAL
+========================= */
+
+.final{
+    min-height:85vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:50px 25px;
+}
+
+
+.final h2{
+    font-family:'DM Serif Display',serif;
+
+    font-size:
+        clamp(
+            45px,
+            11vw,
+            80px
+        );
+
+    font-weight:400;
+
+    line-height:1;
+}
+
+
+.final p{
+    max-width:450px;
+
+    color:#888;
+
+    margin-top:25px;
+
+    line-height:1.8;
+
+    font-size:13px;
+}
+
+
+.final .heart{
+    margin-top:35px;
+
+    font-size:32px;
+
+    animation:
+        pulse 1.8s infinite;
+}
+
+
+@keyframes pulse{
+
+    0%,100%{
+        transform:scale(1);
+    }
+
+    50%{
+        transform:scale(1.18);
+    }
+
+}
+
+
+/* =========================
+   FLOATING HEARTS
+========================= */
+
+.heart-float{
+    position:fixed;
+
+    bottom:-20px;
+
+    color:
+        rgba(255,255,255,.25);
+
+    pointer-events:none;
+
+    animation:
+        floatUp linear forwards;
+
+    z-index:1;
+}
+
+
+@keyframes floatUp{
+
+    0%{
+        transform:
+            translateY(0)
+            scale(.7);
+
+        opacity:0;
+    }
+
+
+    20%{
+        opacity:1;
+    }
+
+
+    100%{
+        transform:
+            translateY(-110vh)
+            scale(1.2);
+
+        opacity:0;
+    }
+
+}
+
+
+/* =========================
+   FADE UP
+========================= */
+
+@keyframes fadeUp{
+
+    from{
+        opacity:0;
+
+        transform:
+            translateY(20px);
+    }
+
+    to{
+        opacity:1;
+
+        transform:
+            translateY(0);
+    }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:600px){
+
+    .hero{
+        padding:
+            45px 18px;
+    }
+
+
+    .hero-label{
+        letter-spacing:4px;
+
+        margin-bottom:20px;
+    }
+
+
+    .hero-sub{
+        font-size:13px;
+
+        max-width:340px;
+    }
+
+
+    .hero-from{
+        margin-top:25px;
+    }
+
+
+    .hero-music{
+        max-width:360px;
+
+        margin-top:32px;
+
+        padding:
+            20px 18px 18px;
+    }
+
+
+    .music-title{
+        font-size:24px;
+    }
+
+
+    section{
+        padding:
+            80px 18px;
+    }
+
+
+    .section-title{
+        font-size:40px;
+    }
+
+
+    .letter{
+        padding:
+            27px 22px;
+
+        font-size:13px;
+    }
+
+
+    .final{
+        min-height:80vh;
+    }
+
+}
+
+
+/* =========================
+   EXTRA SMALL SCREEN
+========================= */
+
+@media(max-width:380px){
+
+    .hero h1{
+        font-size:48px;
+    }
+
+
+    .hero-music{
+        padding:
+            18px 15px;
+    }
+
+
+    .section-title{
+        font-size:36px;
+    }
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     WEBSITE
+========================= -->
+
+<div id="websiteContent">
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<div class="hero">
+
+
+    <div class="hero-label">
+        Boyfriend Day · 2026
+    </div>
+
+
+    <h1>
+        Happy<br>
+
+        <span>
+            Boyfriend Day,
+        </span>
+
+        <br>
+
+        Ael.
+    </h1>
+
+
+    <p class="hero-sub">
+
+        To the person who somehow makes
+        ordinary days feel a little more special.
+
+    </p>
+
+
+    <div class="hero-from">
+
+        from
+
+        <strong>
+            Keisha
+        </strong>
+
+    </div>
+
+
+    <!-- =========================
+         MUSIC
+    ========================= -->
+
+    <div class="hero-music">
+
+
+        <div class="music-label">
+            ✦ a song for you
+        </div>
+
+
+        <div class="music-title">
+            Always
+        </div>
+
+
+        <div class="music-subtitle">
+            Daniel Caesar — press play & listen with me ♡
+        </div>
+
+
+        <audio
+            id="music"
+            controls
+        >
+
+            <source
+                src="always.mp3"
+                type="audio/mpeg"
+            >
+
+            Your browser does not support
+            the audio element.
+
+        </audio>
+
+
+    </div>
+
+
+    <div class="scroll">
+        ↓ scroll slowly
+    </div>
+
+
+</div>
+
+
+
+<!-- =========================
+     LETTER 01
+========================= -->
+
+<section>
+
+
+    <div class="section-label">
+        01 · a little letter
+    </div>
+
+
+    <div class="section-title">
+        For you.
+    </div>
+
+
+    <div class="letter">
+
+
+        <p>
+            Happy Boyfriend Day, Ael. 🤍
+        </p>
+
+
+        <p>
+            A small corner dedicated to u and all the moments we’ve spent together.
+        </p>
+
+
+        <p>
+            I know we’re not officially a thing, and technically, u’re not my boyfriend. But still, u’ve been acting like one in so many ways. So even if the title isn’t technically yours, I still think u deserve a little something today.
+        </p>
+
+
+        <p>
+            Thank u for being there and keeping me company all this time. Thank u for all the time you’ve spent wimme, the random conversations that started from literally nothing and somehow ended up lasting until midnight, all the laughs, the stories, the random things we talked about, and all the little moments we’ve shared.
+        </p>
+
+
+        <p>
+            Sometimes we literally have the most pointless conversations ever, but somehow those are also some of the conversations I enjoy the most. It’s honestly funny how the smallest things can turn into memories that I still remember.
+        </p>
+
+
+        <p>
+            Maybe buat kamu beberapa hal itu biasa aja, and maybe kamu nggak selalu sadar kalau hal-hal kecil kayak gitu actually mean something to me. But I genuinely appreciate them. I like a little moments yang mungkin nggak kelihatan special, tapi somehow bisa bikin hari aku jadi lebih seru.
+        </p>
+
+
+        <p>
+            Aku juga selalu ngehargain keberadaan kamu di hidup aku. Bukan cuma karena kamu pernah ada di banyak momen yang terjadi di hidup aku, tapi juga karena kamu somehow became someone yang bisa aku cari buat cerita, talk, laugh, atau sekadar share random things yang kepikiran in ma head.
+        </p>
+
+
+        <p>
+            There have been so many random moments between us that I probably wouldn’t even know how to explain properly. Some were funny, some were memorable, and some were probably nothing special at all. But when I look back at them, I still feel glad that I got to experience those moments with u.
+        </p>
+
+
+        <p>
+            And honestly, aku seneng bisa ngelewatin sebanyak itu bareng kamu. Somehow, a little things that you've done still became a part of my days.
+        </p>
+
+
+        <p>
+            Aku nggak tau juga gimana semuanya bakal berjalan ke depannya, but I do know that I’m grateful for everything we’ve shared until now. I’m grateful for the time, the conversations, the laughs, the random moments, and simply having you around through so many different days.
+        </p>
+
+
+        <p>
+            So yeah, happy boyfriend day, bebe ♡.
+        </p>
+
+
+        <div class="signature">
+            — Keisha ♡
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     LETTER 02
+========================= -->
+
+<section>
+
+
+    <div class="section-label">
+        02 · what i've been meaning to say
+    </div>
+
+
+    <div class="section-title">
+        A little honest note.
+    </div>
+
+
+    <div class="letter">
+
+
+        <p>
+            Lewat pesan ini, aku cuma mau be honest and actually tell you what I’ve been feeling lately.
+        </p>
+
+
+        <p>
+            Walaupun dari awal aku selalu berusaha buat make everything fun, ngebawa semuanya santai, dan nggak mau bikin suasana jadi too serious atau awkward, tapi jujur ada rasa kecewa yang makin lama makin numpuk di aku.
+        </p>
+
+
+        <p>
+            You often ask me to understand your situation, your feelings, and why you act the way you do. And I always try to, I really do. Aku selalu berusaha buat ngerti posisi kamu, memahami keadaan kamu, bahkan sering kali nahan perasaan aku sendiri karena aku nggak mau bikin semuanya jadi complicated.
+        </p>
+
+
+        <p>
+            But sometimes, when it’s finally my turn to talk, to be honest about what I feel, atau sekadar mau cerita tentang sesuatu yang menurut aku penting, kamu malah skip atau alihin gitu aja. Padahal kamu sendiri yang sering bilang kalau kamu mau aku cerita dan terbuka sama kamu. Terus... how am I supposed to tell you everything kalau setiap kali aku coba cerita, aku malah ngerasa kayak nggak didengerin? Huhu, jujur sedih sih aku.
+        </p>
+
+
+        <p>
+            And the saddest part is, this isn't even the first time I've brought this up to you. Aku udah pernah ngomongin hal ini sebelumnya, udah pernah coba kasih tau kamu gimana rasanya dari sisi aku, tapi somehow the response is still the same. Ujung-ujungnya selalu di-skip, dialihin ke another topic, atau malah dibikin becandaan sampai akhirnya aku yang milih buat diem. Aku ngalah, aku pura-pura nggak apa-apa, terus eventually aku coba forget about it, even though deep down I know it still bothers me.
+        </p>
+
+
+        <p>
+            Karena menurut aku, understanding someone should go both ways. Bukan cuma aku yang harus selalu ngerti posisi kamu, dan bukan juga kamu yang harus ngerti posisi aku, tapi aku juga pengen apa yang aku rasain punya space buat didengerin, dan begitu pula sebaliknya. Aku pengen bisa cerita ke kamu without feeling like I'm bothering you, without feeling like my feelings are just gonna get skipped again.
+        </p>
+
+
+        <p>
+            I’m not asking for anything complicated. I just want u to hear me, dan ngerasa kalau apa yang aku rasain juga matters to you.
+        </p>
+
+
+        <p>
+            So, take your time buat baca ini pelan-pelan ya. You don't have to respond right away. Aku cuma pengen kamu baca, pikirin, dan coba lihat semuanya dari sisi aku juga.
+        </p>
+
+
+        <p>
+            Cause this is me trying to be honest with you, even though honestly, it’s not always easy for me to say all of this.
+        </p>
+
+
+        <div class="signature">
+            — Keisha ♡
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     FINAL
+========================= -->
+
+<div class="final">
+
+
+    <div class="section-label">
+        03 · one last thing
+    </div>
+
+
+    <h2>
+
+        I'm glad<br>
+        it's you.
+
+    </h2>
+
+
+    <p>
+
+        Out of all the people in this world,
+        somehow our paths crossed.
+
+        And honestly, that's one of my favorite
+        things that ever happened to me.
+
+    </p>
+
+
+    <div class="heart">
+        ♡
+    </div>
+
+
+    <p style="margin-top:20px;">
+
+        Happy Boyfriend Day, Argael.<br>
+
+        Love, Keisha.
+
+    </p>
+
+
+</div>
+
+
+</div>
+
+
+
+<script>
+
+/* =========================
+   FLOATING HEARTS
+========================= */
+
+function createHeart(){
+
+    const heart =
+        document.createElement("div");
+
+
+    heart.className =
+        "heart-float";
+
+
+    heart.innerHTML =
+        Math.random() > .5
+        ? "♡"
+        : "♥";
+
+
+    heart.style.left =
+        Math.random() * 100 + "vw";
+
+
+    heart.style.fontSize =
+        (10 + Math.random() * 16) + "px";
+
+
+    heart.style.animationDuration =
+        (7 + Math.random() * 7) + "s";
+
+
+    document.body.appendChild(heart);
+
+
+    setTimeout(() => {
+
+        heart.remove();
+
+    },15000);
+
+}
+
+
+/* =========================
+   START FLOATING HEARTS
+========================= */
+
+setInterval(
+    createHeart,
+    900
+);
+
+
+/* =========================
+   MUSIC VOLUME
+========================= */
+
+const music =
+    document.getElementById("music");
+
+if(music){
+
+    music.volume = 0.45;
+
+}
+
+</script>
+
+
+</body>
+</html>
